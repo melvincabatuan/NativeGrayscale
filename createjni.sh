@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'copying jni folder to app...'
-cp /home/cobalt/AndroidStudioProjects/jni app/  
+cp -r /home/cobalt/AndroidStudioProjects/jni app/  
 
 echo 'creating header file...'
 cd app 
